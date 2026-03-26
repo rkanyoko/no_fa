@@ -1,0 +1,4 @@
+This command extracts all usernames and password hashes from the "users.db" file.
+
+
+python3 -c "import sqlite3; conn = sqlite3.connect('users.db'); [print(f'{r[0]}: {r[1]}') for r in conn.execute('SELECT username, password FROM users')]; conn.close()"
