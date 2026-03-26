@@ -3,7 +3,7 @@ import base64
 
 #Load up the cookie you get from the website after you login
 #keep in mind that OTP codes expire after some time therefore be sure to copy the latest cookie for this to work
-cookie_data = ".eJwty0sKgCAQANC7zFoCyx9eJoacRHBU1FbR3WvR9sG7IdcYKYCHE_MgEFBn2wcdneaHzsntt5mYxkRu4KW1SrnVGLsoI5U2WsA1qBdk-hIGTgWeF0d2HGo.acR06w.xeGBwzLq-hPsU3pBVt_QAxrFyGE"
+cookie_data = "Your cookie"
 
 # decoding with base64 and decompress with zlib
 decoded = base64.urlsafe_b64decode(cookie_data + "==")
